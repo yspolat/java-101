@@ -1,4 +1,4 @@
-package it524.collections;
+package it524.collections.list;
 
 import java.util.ArrayList;
 import java.util.Arrays;

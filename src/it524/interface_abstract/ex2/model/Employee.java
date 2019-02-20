@@ -46,7 +46,7 @@ public abstract class Employee  implements Reportable{
 
 	public void printInformation() {
 		 System.out.println(
-				 "Employee [id=" + id + ", title=" + title + ", name=" + name + ", levelType=" + levelType + "]");
+				 "Faction [id=" + id + ", title=" + title + ", name=" + name + ", levelType=" + levelType + "]");
 	}
 	
 	
