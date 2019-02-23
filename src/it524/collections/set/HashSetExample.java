@@ -2,14 +2,16 @@ package it524.collections.set;
 
 import java.util.HashSet;
 import java.util.Set;
-import java.util.SortedSet;
-import java.util.TreeSet;
 
-public class SetExample2 {
+
+public class HashSetExample {
 
     public static void main(String[] args) {
 
         /*
+
+        ~ A HashSet is unordered and unsorted Set.
+
         HashMap keys are HashSet. Must be unique, no duplicate.
         Set(kume), therefore shouldn't be duplicate
          */
@@ -37,20 +39,19 @@ public class SetExample2 {
 
         System.out.println("=======================");
 
-        /*
-        TreeSet Set
-        TreeSet implements SortedSet
-         One difference from Set, it is sorted.
-         */
+        HashSet<String> factions2 = new HashSet<String>();
 
-        SortedSet<String> fruits = new TreeSet<>();
+        factions2.add("greek");
+        factions2.add("parthia");
+        factions2.add("macedonia");
+        factions2.add("seleucid");
+        factions2.add("egypt");
 
-        fruits.add("Banana");
-        fruits.add("Apple");
-        fruits.add("Pineapple");
-        fruits.add("Orange");
+        for (String faction:factions2) {
+            System.out.println(faction);
+        }
 
-        System.out.println(fruits);
+        System.out.println("=======================");
 
     }
 }

@@ -2,7 +2,7 @@ package it524.collections.list;
 
 import java.util.*;
 
-public class ListExample {
+public class ListExample1 {
 
     public static void main(String[] args) {
 
@@ -30,6 +30,11 @@ public class ListExample {
         listA.add("element 2");
         listA.add("element 3");
 
-        System.out.println(listA);
+        // get index
+        System.out.println(listA.get(0));
+
+        System.out.println("=======");
+
+        listA.forEach(s-> System.out.println(s));
     }
 }
